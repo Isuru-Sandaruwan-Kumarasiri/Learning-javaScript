@@ -6,7 +6,24 @@
     <title>Document</title>
 </head>
 <body>
+   
+
     <button onclick="(console.log('hello'))">click me</button>
     <button onclick="(alert('hello'))">click me</button>
+    <button ondblclick="(alert('hello'))">click me</button>
+
+
+    <h1 id="h1_01">Subsclibe me</h1>
+
+    <script>
+        // initial running
+        console.log("initialing running ");
+
+        // access by id 
+        let btn =document.getElementById("h1_01");
+        btn.innerHTML="Hello";
+    </script>
+    <script src="index.js"></script>
+
 </body>
 </html>
