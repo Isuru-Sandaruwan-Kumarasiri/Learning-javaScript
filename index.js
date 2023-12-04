@@ -20,7 +20,13 @@ console.log(num.toFixed(2))
 
 //trycatch
 function divider(num1,num2){
-    return num1/num2
+    return num1/num2;
 }
-let out =divider(10,0.01);
-console.log(out);
+try {
+    let out =dividerr(10,0.01);
+    console.log(out);
+} catch (error) {
+    console.log("an error occured");
+}
+
+
