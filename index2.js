@@ -5,4 +5,9 @@ console.log(JSON.stringify(obj));
 
 
 // convert JSON to code
-hdjkfhsudgajehgfsufsipjw
+try {
+    let obj2='{"name":"janith","school":"abs"}';
+console.log(JSON.parse(obj2));
+} catch (error) {
+    console.log("an error occoured");
+}
