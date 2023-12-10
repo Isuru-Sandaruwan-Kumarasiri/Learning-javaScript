@@ -12,14 +12,14 @@ getData();//T2
 console.log("Network request stop");//T3
 
 
-const axios=require("axios");
+// const axios=require("axios");
 
-function getData(){
-    axios("https://www.thunderclient.com/welcome").then((res)=>
-    console.log("T2 finished")
-    );
+// function getData(){
+//     axios("https://www.thunderclient.com/welcome").then((res)=>
+//     console.log("T2 finished")
+//     );
     
-}
-console.log("Network request start");//T1
-getData();//T2
-console.log("Network request stop");//T3
+// }
+// console.log("Network request start");//T1
+// getData();//T2
+// console.log("Network request stop");//T3
